@@ -94,7 +94,7 @@ brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&pas
 ### Brute Force Login using GET with Username
 #### This works on HTTP Get method without username and password where the username and password is left Blank, it is extracted from the word2.txt
 ```
-brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
+brute -w word2.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
 ```
 
 ## Sample usage
