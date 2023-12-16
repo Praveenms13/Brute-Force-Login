@@ -6,6 +6,9 @@
 
 This is a simple Brute Force Login tool written in Python. It is designed to assist in testing the security of login forms or API login endpoints. The tool supports both GET and POST HTTP methods for brute force attacks and give results based on the retrieved status code.
 
+### Testing Site: https://forms.praveenms.site/login.php
+The above site is used to test the Brute force login 
+
 ## Features
 
 *   **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of a input tag or button tag, also extracts all the required tokens, cookies for a login Session.
