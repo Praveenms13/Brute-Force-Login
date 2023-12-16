@@ -16,6 +16,7 @@ ec2-user
 vagrant
 azureuser
 !root
+pass@123
 $ALOC$
 $SRV
 $system
