@@ -62,15 +62,7 @@ Optional arguments:
 
 ## Usage
 
-### Installation from git repository
-
-```
-git clone https://github.com/Praveenms13/Cappricio-Intern-Task.git
-```
-
-```
-cd Cappricio-Intern-Task
-```
+## Create a Virtual Environment and Activateit before using the tools 
 
 ### Create a Virtual Environment 
 ```
@@ -80,49 +72,29 @@ python3 -m venv venv
 ```
 source venv/bin/activate
 ```
-### Download Necessary packages
-```
-pip install -r brute/requirements.txt 
-```
-
-### How to Run
-
-```
-python3 brute.py -w <wordlist_file> -t <target_url> -m <http_method> [-u <username>] [-c <cookie_value>]
-```
-
-*   `-t` or `--target`: Specify the target URL.
-*   `-w` or `--wordlist`: Specify the wordlist file.
-*   `-m` or `--method`: Specify the HTTP method (get or post).
-
-Optional arguments:
-
-*   `-u` or `--username`: Specify the username for targeted brute force (optional).
-*   `-c` or `--cookie`: Specify the cookie value for authentication (optional).
 
 ## Examples
-
 ### Brute Force Login using POST with username
 #### Here admin is the username, word1.txt contains all the common passwords (Passwords only)
 ```
-python3 brute.py -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
+brute -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
 ```
 ### Brute Force Login using POST without username
 #### By the below syntax you can run the brute force attack without usernames as it takes all the common username and password from the file named word2.txt
 ```
-python3 brute.py -w word2.txt -t "https://forms.praveenms.site/login.php" -m POST
+brute -w word2.txt -t "https://forms.praveenms.site/login.php" -m POST
 ```
 
 ### Brute Force Login using GET with Username
 #### This works on HTTP Get method with username where the username is given and the password is left Blank where it is extracted from the word1.txt
 ```
-python3 brute.py -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&password=" -m GET
+brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&password=" -m GET
 ```
 
 ### Brute Force Login using GET with Username
 #### This works on HTTP Get method without username and password where the username and password is left Blank, it is extracted from the word2.txt
 ```
-python3 brute.py -w word1.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
+brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
 ```
 
 ## Sample usage
