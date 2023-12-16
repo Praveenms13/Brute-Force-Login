@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="brute",
-    version="1.0.7",
+    name="brute-force-attacker",
+    version="1.0.0",
     author="Praveen",
     author_email="mspraveenkumar77@gmail.com",
     description="A wrapper tool for mediainfo tool",
