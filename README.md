@@ -43,6 +43,7 @@ Form 1 attributes:
 
 
 ## Release - PYPI
+#### PYPI Link: https://pypi.org/project/brute-force-attacker/
 ```
 pip install pip install brute-force-attacker
 ```
