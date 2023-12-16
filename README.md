@@ -4,11 +4,35 @@
 
 ## Overview
 
-This is a simple Brute Force Login tool written in Python. It is designed to assist in testing the security of login forms or API login endpoints. The tool supports both GET and POST methods for brute force attacks.
+This is a simple Brute Force Login tool written in Python. It is designed to assist in testing the security of login forms or API login endpoints. The tool supports both GET and POST HTTP methods for brute force attacks and give results based on the retrieved status code.
 
 ## Features
 
 *   **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of a input tag or button tag, also extracts all the required tokens, cookies for a login Session.
+```
+Example:
+➜  Praveen brute-force git:(main U:1 ✗) 🚀 brute -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
+Brute Force Login
+Tool By Praveen
+Required Login Page URL or API Login URL Endpoint
+Leave blank if you don't have, In optional cases
+This module is not intended to be imported
+[+] Username Provided, Username: admin, Using Username From User Input
+[+] Using POST Method
+
+Form Attributes Found:
+
+Form 1 attributes:
+  Method: POST
+  Action: login.php
+  Input types:
+    password, text
+  Input names:
+    username, password
+  Input names for username and password fields:
+    Username input name: username
+    Password input name: password
+```
 *   **Wordlist Attack:** Supports username and password brute force attacks using a provided wordlist file.
 *   **GET and POST Methods:** Choose between GET and POST methods based on the target's login mechanism.
 *   **Cookie Support:** Optionally provide a cookie value for authentication.
@@ -124,7 +148,7 @@ Form 1 attributes:
   Input names for username and password fields:
     Username input name: username
     Password input name: password
-[+] Using Wordlist: /home/mspraveenkumar77/htdocs/brute-force/word1.txt
+[+] Using Wordlist: word1.txt
 -----------------------------------------------
 Trying: admin and root ...
 [+] Status Code: 401
