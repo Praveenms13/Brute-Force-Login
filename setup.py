@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="brute-force-attacker",
-    version="1.0.0",
+    version="1.0.1",
     author="Praveen",
     author_email="mspraveenkumar77@gmail.com",
     description="A wrapper tool for mediainfo tool",
