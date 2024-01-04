@@ -35,8 +35,9 @@ This is a simple Brute Force Login tool written in Python. It is designed to ass
 
 ## Installation (Release from PyPI)
 
-[![PyPI Version](https://img.shields.io/pypi/v/brute-force-attacker?style=for-the-badge&logo=PyPI&logoColor=white)](https://pypi.org/project/brute-force-attacker/)
-[![Supported OS](https://img.shields.io/badge/Works%20on-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white)](https://en.wikipedia.org/wiki/Ubuntu)
+[![PyPI Version](https://img.shields.io/pypi/v/brute-force-attacker?style=for-the-badge&logo=PyPI&logoColor=white)](https://pypi.org/project/brute-force-attacker/) [![Supported OS](https://img.shields.io/badge/Works%20on-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://en.wikipedia.org/wiki/Linux)
+
+
 
 Install the `brute-force-attacker` package using pip:
 
