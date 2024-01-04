@@ -1,36 +1,28 @@
 # Brute Force Login Tool
 
-
-
-
-![GitHub repo size](https://img.shields.io/github/repo-size/Praveenms13/Brute-Force-Login?style=plastic) ![](https://img.shields.io/badge/license-MIT-green) 
+![GitHub repo size](https://img.shields.io/github/repo-size/Praveenms13/Brute-Force-Login?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ## Overview
 
-This is a simple Brute Force Login tool written in Python. It is designed to assist in testing the security of login forms or API login endpoints. The tool supports both GET and POST HTTP methods for brute force attacks and give results based on the retrieved status code.
+This is a simple Brute Force Login tool written in Python. It is designed to assist in testing the security of login forms or API login endpoints. The tool supports both GET and POST HTTP methods for brute force attacks and gives results based on the retrieved status code.
 
 ## Prerequisites
- - Python3
- - PIP
- 
-\
-![Python Version](https://img.shields.io/badge/Python-3.x-blue) ![GitHub top language](https://img.shields.io/github/languages/top/Praveenms13/Brute-Force-Login?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/Praveenms13/Brute-Force-Login?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/Praveenms13/Brute-Force-Login?color=red&style=plastic)
 
-![GitHub stars](https://img.shields.io/github/stars/Praveenms13/Brute-Force-Login?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/Praveenms13/Brute-Force-Login?style=social)
+- Python3
+- PIP
 
+![Python Version](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/Praveenms13/Brute-Force-Login?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Praveenms13/Brute-Force-Login?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Praveenms13/Brute-Force-Login?color=red&style=for-the-badge)
 
-
-## License 
-
-<a href="https://choosealicense.com/licenses/mit/">MIT</a>
-
-### Target Site: https://forms.praveenms.site/login.php
-
-The above site is used to test the Brute force login
+![GitHub stars](https://img.shields.io/github/stars/Praveenms13/Brute-Force-Login?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Praveenms13/Brute-Force-Login?style=social)
 
 ## Features
 
-- **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of a input tag or button tag, also extracts all the required tokens, cookies for a login Session.
+- **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of an input tag or button tag, also extracts all the required tokens, cookies for a login session.
 
 <p align="center">
   <img width="80%" src="inp.jpg" alt="Centered Image">
@@ -41,8 +33,7 @@ The above site is used to test the Brute force login
 - **Cookie Support:** Optionally provide a cookie value for authentication.
 - **User-friendly Interface:** Provides clear and colored console output for better user interaction.
 
-
-## Installation (Release from PyPI) 
+## Installation (Release from PyPI)
 
 [![PyPI Version](https://img.shields.io/pypi/v/brute-force-attacker?style=for-the-badge&logo=PyPI&logoColor=white)](https://pypi.org/project/brute-force-attacker/)
 [![Supported OS](https://img.shields.io/badge/Works%20on-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white)](https://en.wikipedia.org/wiki/Ubuntu)
@@ -105,60 +96,14 @@ brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&pas
 brute -w word2.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
 ```
 
-## Sample usage
-
-```
-➜  Praveen brute-force git:(main U:1 ✗) 🚀 brute -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
-Brute Force Login
-Tool By Praveen
-Required Login Page URL or API Login URL Endpoint
-Leave blank if you don't have, In optional cases
-This module is not intended to be imported
-[+] Username Provided, Username: admin, Using Username From User Input
-[+] Using POST Method
-
-Form Attributes Found:
-
-Form 1 attributes:
-  Method: POST
-  Action: login.php
-  Input types:
-    password, text
-  Input names:
-    username, password
-  Input names for username and password fields:
-    Username input name: username
-    Password input name: password
-
-[+] Using Wordlist: word1.txt
------------------------------------------------
-Trying: admin and root ...
-[+] Status Code: 401
------------------------------------------------
-Trying: admin and ec2-user ...
-[+] Status Code: 401
------------------------------------------------
-Trying: admin and vagrant ...
-[+] Status Code: 401
------------------------------------------------
-Trying: admin and azureuser ...
-[+] Status Code: 401
------------------------------------------------
-Trying: admin and !root ...
-[+] Status Code: 401
------------------------------------------------
-Trying: admin and pass@123 ...
-[+] Status Code: 200
-[+] Login Successful!
-[+] Login Creds:
-[+] Username: admin
-[+] password: pass@123
-```
-
 ## Disclaimer
 
 This tool is intended for educational and testing purposes only. Unauthorized access to systems or networks without permission is illegal.
 
-## License
+## License 
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![](https://img.shields.io/badge/license-MIT-green)  <a href="https://choosealicense.com/licenses/mit/">MIT</a>
+
+### Target Site: https://forms.praveenms.site/login.php
+
+The above site is used to test the Brute force login
