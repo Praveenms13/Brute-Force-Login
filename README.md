@@ -71,7 +71,6 @@ Optional arguments:
 
 ### 1. Brute Force Login using GET with Username
 
-#### This works on HTTP Get method with username where the username is given and the password is left Blank where it is extracted from the word1.txt
 
 ```
 brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&password=" -m GET
@@ -79,7 +78,6 @@ brute -w word1.txt -t "https://forms.praveenms.site/login.php?username=admin&pas
 
 ### 2. Brute Force Login using GET with Username
 
-#### This works on HTTP Get method without username and password where the username and password is left Blank, it is extracted from the word2.txt
 
 ```
 brute -w word2.txt -t "https://forms.praveenms.site/login.php?username=&password=" -m GET
@@ -90,15 +88,11 @@ brute -w word2.txt -t "https://forms.praveenms.site/login.php?username=&password
 
 ### 1. Brute Force Login using POST with username
 
-#### Here admin is the username, word1.txt contains all the common passwords (Passwords only)
-
 ```
 brute -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
 ```
 
 ### 2. Brute Force Login using POST without username
-
-#### By the below syntax you can run the brute force attack without usernames as it takes all the common username and password from the file named word2.txt
 
 ```
 brute -w word2.txt -t "https://forms.praveenms.site/login.php" -m POST
