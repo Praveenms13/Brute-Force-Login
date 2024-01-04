@@ -25,7 +25,7 @@ This is a simple Brute Force Login tool written in Python. It is designed to ass
 - **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of an input tag or button tag, also extracts all the required tokens, cookies for a login session.
 
 <p align="center">
-  <img width="80%" src="inp.jpg" alt="Centered Image">
+  <img width="80%" src="img/inp.jpg" alt="Centered Image">
 </p>
 
 - **Wordlist Attack:** Supports username and password brute force attacks using a provided wordlist file.
@@ -64,7 +64,7 @@ Optional arguments:
 
 ## Help
 <p align="center">
-  <img width="80%" src="help.jpeg" alt="Centered Image">
+  <img width="80%" src="img/help.jpeg" alt="Centered Image">
 </p>
 
 ## Examples
