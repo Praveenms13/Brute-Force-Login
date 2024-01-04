@@ -41,13 +41,20 @@ The above site is used to test the Brute force login
 - **Cookie Support:** Optionally provide a cookie value for authentication.
 - **User-friendly Interface:** Provides clear and colored console output for better user interaction.
 
-## Installation (Release from PYPI)
 
-#### PYPI Link: https://pypi.org/project/brute-force-attacker/
+## Installation (Release from PyPI) 
 
-```
+[![PyPI Version](https://img.shields.io/pypi/v/brute-force-attacker?style=for-the-badge&logo=PyPI&logoColor=white)](https://pypi.org/project/brute-force-attacker/)
+[![Supported OS](https://img.shields.io/badge/Works%20on-Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white)](https://en.wikipedia.org/wiki/Ubuntu)
+
+Install the `brute-force-attacker` package using pip:
+
+```bash
 pip install brute-force-attacker
 ```
+
+Find the latest release on <a href="https://pypi.org/project/brute-force-attacker/">PyPI</a>.
+
 
 ### How to Run as command line tool
 
