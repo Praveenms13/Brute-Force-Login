@@ -16,6 +16,7 @@ This is a simple Brute Force Login tool written in Python. It is designed to ass
 ![GitHub top language](https://img.shields.io/github/languages/top/Praveenms13/Brute-Force-Login?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Praveenms13/Brute-Force-Login?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Praveenms13/Brute-Force-Login?color=red&style=for-the-badge)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FPraveenms13%2FBrute-Force-Login&countColor=%23263759)
 
 ![GitHub stars](https://img.shields.io/github/stars/Praveenms13/Brute-Force-Login?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/Praveenms13/Brute-Force-Login?style=social)
@@ -98,6 +99,8 @@ brute -w word1.txt -u admin -t "https://forms.praveenms.site/login.php" -m POST
 brute -w word2.txt -t "https://forms.praveenms.site/login.php" -m POST
 ```
 <hr>
+
+
 
 ## Scren Shots
 
