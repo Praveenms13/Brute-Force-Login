@@ -33,7 +33,7 @@ The above site is used to test the Brute force login
 - **Form Analysis:** Extracts and analyzes HTML form attributes to identify input names for username and password fields, extracts the `type` of a input tag or button tag, also extracts all the required tokens, cookies for a login Session.
 
 <p align="center">
-  <img src="inp.jpg" alt="Centered Image">
+  <img width="80%" src="inp.jpg" alt="Centered Image">
 </p>
 
 - **Wordlist Attack:** Supports username and password brute force attacks using a provided wordlist file.
