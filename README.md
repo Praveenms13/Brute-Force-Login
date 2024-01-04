@@ -40,15 +40,14 @@ This is a simple Brute Force Login tool written in Python. It is designed to ass
 
 
 Install the `brute-force-attacker` package using pip:
+Find the latest release on <a href="https://pypi.org/project/brute-force-attacker/">PyPI</a>.
 
 ```bash
 pip install brute-force-attacker
 ```
 
-Find the latest release on <a href="https://pypi.org/project/brute-force-attacker/">PyPI</a>.
 
-
-### How to Run as command line tool
+### Run as command line tool
 
 ```
 brute -w <wordlist_file> -t <target_url> -m <http_method> [-u <username>] [-c <cookie_value>]
@@ -62,6 +61,11 @@ Optional arguments:
 
 - `-u` or `--username`: Specify the username for targeted brute force (optional).
 - `-c` or `--cookie`: Specify the cookie value for authentication (optional).
+
+## Help
+<p align="center">
+  <img width="80%" src="help.jpeg" alt="Centered Image">
+</p>
 
 ## Examples
 
