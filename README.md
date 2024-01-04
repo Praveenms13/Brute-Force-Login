@@ -119,8 +119,23 @@ This tool is intended for educational and testing purposes only. Unauthorized ac
 
 ## License 
 
-![](https://img.shields.io/badge/license-MIT-green)  <a href="https://choosealicense.com/licenses/mit/">MIT</a>
+![](https://img.shields.io/badge/license-MIT-green) 
+
+ <a href="https://choosealicense.com/licenses/mit/">MIT</a>
 
 ### Target Site: https://forms.praveenms.site/login.php
 
 The above site is used to test the Brute force login
+
+
+## Social Media Links: 
+
+<a href="https://www.instagram.com/praveen.ms_13/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a><a href="https://www.linkedin.com/in/m-s-praveen-kumar-2243b622a/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a><a href="https://github.com/Praveenms13">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a><a href="https://www.praveenms.site/">
+  <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="GitHub">
+</a>
